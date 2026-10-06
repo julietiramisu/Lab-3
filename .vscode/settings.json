@@ -1,0 +1,5 @@
+{
+  "github.copilot.chat.commitMessages.enabled": false,
+  "github.copilot.chat.git.enabled": false,
+  "scm.providerCountBadge": "hidden"
+}
