@@ -20,10 +20,6 @@ btn1.addEventListener("click", showSequenceOne);
 let btn2 = document.getElementById("sequence-two");
 btn2.addEventListener("click", showSequenceTwo);
 
-let image1 = document.getElementById("image1");
-let image2 = document.getElementById("image2");
-let image3 = document.getElementById("image3");
-
 function changeImage1() {
   let number = Math.floor(Math.random() * 3) + 1;
   image1.src = "images/image" + number + ".jpg";
