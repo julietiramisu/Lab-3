@@ -3,15 +3,15 @@ let image2 = document.getElementById("image2");
 let image3 = document.getElementById("image3");
 
 function showSequenceOne() {
-  image1.src = "images/matcha1.jpg";
-  image2.src = "images/matcha2.jpg";
-  image3.src = "images/hojicha1.jpg";
+  image1.src = "images/makeup.jpg";
+  image2.src = "images/hair.jpg";
+  image3.src = "images/outfit.jpg";
 }
 
 function showSequenceTwo() {
-  image1.src = "images/hojicha1.jpg";
-  image2.src = "images/matcha1.jpg";
-  image3.src = "images/matcha2.jpg";
+  image1.src = "images/outfit.jpg";
+  image2.src = "images/makeup.jpg";
+  image3.src = "images/hair.jpg";
 }
 
 let btn1 = document.getElementById("sequence-one");
